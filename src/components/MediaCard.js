@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import styled from 'styled-components';
+import { rgbToHex } from '@mui/material';
 
 
 export default function MediaCard({myimage, altText, projectName, description, myUrl}) {
@@ -15,7 +16,7 @@ export default function MediaCard({myimage, altText, projectName, description, m
     };
 
   return (
-        <Card sx={{ maxWidth: 345}}>
+        <Card sx={{ maxWidth: 345, bgcolor: 'lightgray', p: 1, m: 1}}>
             <CardMedia
                 component="img"
                 height="140"

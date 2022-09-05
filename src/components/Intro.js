@@ -7,7 +7,7 @@ import IconContainer from './IconContainer';
 import {TbBrandJavascript, TbBrandCss3, TbBrandPython} from 'react-icons/tb'
 import {BsBootstrap} from 'react-icons/bs'
 import {SiAzuredevops} from 'react-icons/si'
-import {BiData} from 'react-icons/bi'
+import {BiData, BiWorld} from 'react-icons/bi'
 import MediaCard from './MediaCard';
 import ContactMe from './ContactMe';
 import TypingAnimation from './TypingAnimation';
@@ -64,7 +64,7 @@ function Intro() {
                 altText='portfolio' 
                 projectName='Personal Portfolio' 
                 description='Created a personal website using React to display resume in a more elegant format for people to visit and learn more about me!'
-                myUrl=''
+                myUrl='https://github.com/shadagali03/personal-website-2'
                 />
 
                 
