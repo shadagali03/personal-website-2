@@ -3,8 +3,7 @@ import Header from './Header';
 
 function UpperBody() {
   return (
-    // <Header />
-    <></>
+    <Header />
   )
 }
 

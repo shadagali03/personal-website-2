@@ -27,7 +27,7 @@ function Intro() {
                 <img src='https://media-exp1.licdn.com/dms/image/C5603AQG2jzof32QjmA/profile-displayphoto-shrink_400_400/0/1657126247893?e=1667433600&v=beta&t=CKeiJF3DYFBXDGQELQrursVE4UfBAcEI7fnUt8XMLFE' />
             </ImageContainer>
             <ContactMe />
-            <TechnologyContainer>
+            <TechnologyContainer id='skills'>
                 <h3>Technologies and Tools</h3>
                 <p>
                     Here are some of the technologies and tools that I have used and am comfortble with!
@@ -57,8 +57,8 @@ function Intro() {
                 </Stack>
             </TechnologyContainer>
             <Experience />
-            <h3>My Portfolio</h3>
-            <PortfolioContainer>
+            <h3 >My Portfolio</h3>
+            <PortfolioContainer id='projects'>
                 <MediaCard 
                 myimage='https://optinmonster.com/wp-content/uploads/2017/10/best-website-builder-for-small-business-min.png' 
                 altText='portfolio' 
@@ -100,7 +100,7 @@ export default Intro;
 const IntroContainer = styled.div`
     display: flex;
     justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `;
 
 
@@ -120,8 +120,8 @@ const MovingText = styled.div``;
 const ImageContainer = styled.div`
     padding: 20px;
     > img {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
 `;
 
@@ -131,7 +131,7 @@ const TechnologyContainer = styled.div`
         font-size: larger;
     }
     > p {
-        font-size: smaller;
+        font-size: 18px;
         margin-bottom: 30px;
     }
 `;

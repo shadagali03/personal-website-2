@@ -4,7 +4,7 @@ import Socials from './Socials';
 
 function AboutMe() {
   return (
-    <AboutContainer>
+    <AboutContainer id='about'>
         <AboutTitle>
             <h3>
                 About Me
@@ -31,6 +31,7 @@ export default AboutMe;
 const AboutContainer = styled.div`
     background-color: black ;
     padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 `;
 
 const AboutTitle = styled.div`

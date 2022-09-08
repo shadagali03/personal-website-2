@@ -19,7 +19,7 @@ const MyContainer = styled.div`
     flex-direction: column;
 
     > p {
-        color: rgb(30, 161, 253);
+        color: rgb(0,89,179); 
     }
 
 `;

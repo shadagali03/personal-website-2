@@ -18,7 +18,7 @@ function TypingAnimation() {
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-      style={{ fontSize: '1em', color: 'blue' }}
+      style={{ fontSize: '2em', color: 'deepblue'}}
     />
   )
 }
